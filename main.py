@@ -4,8 +4,8 @@ def get_book_text(filepath):
     return file_text
 relpath = "books/frankenstein.txt"
 def main(relpath):
-    get_book_text(relpath)
-    print(relpath)
+    result = get_book_text(relpath)
+    print(result)
 main()
 
 
