@@ -14,3 +14,7 @@ def text_stats(text):
             if char in stats:
                 stats[char] += 1
     return stats
+def sort_stats(stats):
+    # Sort the stats dictionary by value in descending order
+    sorted_stats = sorted(stats.items(), key=lambda item: item[1], reverse=True)
+    return sorted_stats
