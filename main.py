@@ -4,7 +4,7 @@ from stats import *
 
 
 if len(sys_argv) != 2:
-    print("Usage: python main.py <book_path>")
+    print(Usage: python3 main.py <path_to_book>)
     sys.exit(1)
 
 def main():
