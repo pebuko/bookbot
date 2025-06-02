@@ -3,7 +3,7 @@ from stats import *# stats.py
 
 
 def get_book_text(filepath):
-    with open(filepath) as f:
+    with open(filepath, encoding="utf8") as f:
         file_text = f.read()
     return file_text
 
