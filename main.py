@@ -1,9 +1,9 @@
-from stats import (
-    get_num_words,
-    chars_dict_to_sorted_list,
-    get_chars_dict,
-)
+from stats import *
+import sys
 
+if len(sys_argv) != 2:
+    print("Usage: python main.py <book_path>")
+    sys.exit(1)
 
 def main():
     book_path = "books/frankenstein.txt"
